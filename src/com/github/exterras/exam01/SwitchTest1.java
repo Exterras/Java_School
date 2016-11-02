@@ -7,48 +7,48 @@ public class SwitchTest1 {
 		
 		int month = 0;
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("ÇØ´çÇÏ´Â ¿ùÀÇ °èÀıÀ» ¾Ë·Áµå¸³´Ï´Ù.(¼ıÀÚ¸¸)");
+		System.out.println("í•´ë‹¹í•˜ëŠ” ì›”ì˜ ê³„ì ˆì„ ì•Œë ¤ë“œë¦½ë‹ˆë‹¤.(ìˆ«ìë§Œ)");
 		
-		System.out.print("ÀÔ·Â : ");
+		System.out.print("ì…ë ¥ : ");
 		
 		try {
 			month = scanner.nextInt();
 		} catch (Exception e) {
-			System.out.println("ÀÔ·ÂÀ» Àß¸øÇÏ¼Ì½À´Ï´Ù. 1~12 »çÀÌÀÇ ¼ıÀÚ¸¸ ÀÔ·ÂÇÏ¼¼¿ä.");
+			System.out.println("ì…ë ¥ì„ ì˜ëª»í•˜ì…¨ìŠµë‹ˆë‹¤. 1~12 ì‚¬ì´ì˜ ìˆ«ìë§Œ ì…ë ¥í•˜ì„¸ìš”.");
 			return;
 		}
 		
 		switch (month) {
-		// º½
+		// ë´„
 		case 3:
 		case 4:
 		case 5:
-			System.out.println(month +" ¿ùÀº º½ÀÔ´Ï´Ù.");
+			System.out.println(month +" ì›”ì€ ë´„ì…ë‹ˆë‹¤.");
 		break;
 		
-		// ¿©¸§-
+		// ì—¬ë¦„-
 		case 6:
 		case 7:
 		case 8:
-			System.out.println(month +" ¿ùÀº ¿©¸§ÀÔ´Ï´Ù.");
+			System.out.println(month +" ì›”ì€ ì—¬ë¦„ì…ë‹ˆë‹¤.");
 		break;
 		
-		// °¡À»
+		// ê°€ì„
 		case 9:
 		case 10:
 		case 11:
-			System.out.println(month +" ¿ùÀº °¡À»ÀÔ´Ï´Ù.");
+			System.out.println(month +" ì›”ì€ ê°€ì„ì…ë‹ˆë‹¤.");
 		break;
 		
-		// °Ü¿ï
+		// ê²¨ìš¸
 		case 12:
 		case 1:
 		case 2:
-			System.out.println(month +" ¿ùÀº °Ü¿ïÀÔ´Ï´Ù.");
+			System.out.println(month +" ì›”ì€ ê²¨ìš¸ì…ë‹ˆë‹¤.");
 		break;
 
 		default:
-			System.out.println("ÀÔ·ÂÇÏ½Å ¿ùÀº ¾ø´Â ¿ùÀÔ´Ï´Ù.");
+			System.out.println("ì…ë ¥í•˜ì‹  ì›”ì€ ì—†ëŠ” ì›”ì…ë‹ˆë‹¤.");
 			break;
 		}
 	}

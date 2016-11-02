@@ -8,38 +8,38 @@ public class DoWhileAdv {
 	Scanner scanner = new Scanner(System.in);
 	
 	public void noticeFunc(){
-		System.out.println("¹İº¹¹® Á¾·ù ¼³¸í");
-		System.out.println("1. While ¹İº¹¹®");
-		System.out.println("2. Do - While ¹İº¹¹®");
-		System.out.println("3. For ¹İº¹¹®");
-		System.out.println("4. Á¾·á");
-		System.out.println("¾Ë°íÀÚ ÇÏ´Â ¸Ş´º¸¦ ¼±ÅÃÇÏ½Ã¿À (1~3)");
+		System.out.println("ë°˜ë³µë¬¸ ì¢…ë¥˜ ì„¤ëª…");
+		System.out.println("1. While ë°˜ë³µë¬¸");
+		System.out.println("2. Do - While ë°˜ë³µë¬¸");
+		System.out.println("3. For ë°˜ë³µë¬¸");
+		System.out.println("4. ì¢…ë£Œ");
+		System.out.println("ì•Œê³ ì í•˜ëŠ” ë©”ë‰´ë¥¼ ì„ íƒí•˜ì‹œì˜¤ (1~3)");
 		choice = scanner.nextInt();
 	}
 	
 	public void controllerFunc(){
 		switch (choice) {
 			case 1:
-				System.out.println("1. While ¹İº¹¹®");
-				System.out.println("Á¶°ÇÀ» ¸ÕÀú °Ë»çÇÏ°í Á¶°ÇÀÌ ÂüÀÏ °æ¿ì ¹İº¹ ºÎºĞÀ» ¼öÇàÇÏ´Â ¹İº¹¹®");
+				System.out.println("1. While ë°˜ë³µë¬¸");
+				System.out.println("ì¡°ê±´ì„ ë¨¼ì € ê²€ì‚¬í•˜ê³  ì¡°ê±´ì´ ì°¸ì¼ ê²½ìš° ë°˜ë³µ ë¶€ë¶„ì„ ìˆ˜í–‰í•˜ëŠ” ë°˜ë³µë¬¸");
 				System.out.println();
 				break;
 			case 2:
-				System.out.println("2. Do - While ¹İº¹¹®");
-				System.out.println("¹İº¹ ºÎºĞÀ» ¸ÕÀú ¼öÇàÇÏ°í Á¶°ÇÀ» °Ë»çÇÏ°í ÃÖ¼Ò ÇÑ¹øÀº ¼öÇàµÇ´Â ¹İº¹¹®");
+				System.out.println("2. Do - While ë°˜ë³µë¬¸");
+				System.out.println("ë°˜ë³µ ë¶€ë¶„ì„ ë¨¼ì € ìˆ˜í–‰í•˜ê³  ì¡°ê±´ì„ ê²€ì‚¬í•˜ê³  ìµœì†Œ í•œë²ˆì€ ìˆ˜í–‰ë˜ëŠ” ë°˜ë³µë¬¸");
 				System.out.println();
 				break;
 			case 3:
-				System.out.println("3. For ¹İº¹¹®");
-				System.out.println("ÁöÁ¤µÈ È½¼ö¸¸Å­ ¹İº¹ ºÎºĞÀ» ¼öÇàÇÏ´Â ¹İº¹¹®");
+				System.out.println("3. For ë°˜ë³µë¬¸");
+				System.out.println("ì§€ì •ëœ íšŸìˆ˜ë§Œí¼ ë°˜ë³µ ë¶€ë¶„ì„ ìˆ˜í–‰í•˜ëŠ” ë°˜ë³µë¬¸");
 				System.out.println();
 				break;
 			case 4:
-				System.out.println("ÇÁ·Î±×·¥À» Á¾·áÇÕ´Ï´Ù.");
+				System.out.println("í”„ë¡œê·¸ë¨ì„ ì¢…ë£Œí•©ë‹ˆë‹¤.");
 				flag = false;
 				break;
 			default:
-				System.out.println("¸Ş´º ¼±ÅÃÀ» Àß¸ø ÇÏ¼Ì½À´Ï´Ù.");
+				System.out.println("ë©”ë‰´ ì„ íƒì„ ì˜ëª» í•˜ì…¨ìŠµë‹ˆë‹¤.");
 				System.out.println();
 				break;
 		}

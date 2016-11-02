@@ -12,6 +12,6 @@ public class WhileTest3 {
 			
 		};
 		
-		System.out.println(initI+" ¿Í "+initJ+"ÀÇ Áß°£°ªÀº "+i+" ÀÔ´Ï´Ù.");
+		System.out.println(initI+" ì™€ "+initJ+"ì˜ ì¤‘ê°„ê°’ì€ "+i+" ì…ë‹ˆë‹¤.");
 	}
 }	

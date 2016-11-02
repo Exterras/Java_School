@@ -9,16 +9,16 @@ public class DoWhileTest2 {
 		
 		
 		do {
-			System.out.println("¹İº¹¹® Á¾·ù ¼³¸í");
-			System.out.println("1. While ¹İº¹¹®");
-			System.out.println("2. Do - While ¹İº¹¹®");
-			System.out.println("3. For ¹İº¹¹®");
-			System.out.println("¾Ë°íÀÚ ÇÏ´Â ¸Ş´º¸¦ ¼±ÅÃÇÏ½Ã¿À (1~3)");
+			System.out.println("ë°˜ë³µë¬¸ ì¢…ë¥˜ ì„¤ëª…");
+			System.out.println("1. While ë°˜ë³µë¬¸");
+			System.out.println("2. Do - While ë°˜ë³µë¬¸");
+			System.out.println("3. For ë°˜ë³µë¬¸");
+			System.out.println("ì•Œê³ ì í•˜ëŠ” ë©”ë‰´ë¥¼ ì„ íƒí•˜ì‹œì˜¤ (1~3)");
 			
 			try {
 				choice = scanner.nextInt();
 			} catch (Exception e) {
-				System.out.println("ÀÔ·ÂÀ» Àß¸øÇÏ¼Ì½À´Ï´Ù. 1~12 »çÀÌÀÇ ¼ıÀÚ¸¸ ÀÔ·ÂÇÏ¼¼¿ä.");
+				System.out.println("ì…ë ¥ì„ ì˜ëª»í•˜ì…¨ìŠµë‹ˆë‹¤. 1~12 ì‚¬ì´ì˜ ìˆ«ìë§Œ ì…ë ¥í•˜ì„¸ìš”.");
 				break;
 			}
 			
@@ -26,16 +26,16 @@ public class DoWhileTest2 {
 		
 		switch (choice) {
 		case 1:
-			System.out.println("1. While ¹İº¹¹®");
-			System.out.println("Á¶°ÇÀ» ¸ÕÀú °Ë»çÇÏ°í Á¶°ÇÀÌ ÂüÀÏ °æ¿ì ¹İº¹ ºÎºĞÀ» ¼öÇàÇÏ´Â ¹İº¹¹®");
+			System.out.println("1. While ë°˜ë³µë¬¸");
+			System.out.println("ì¡°ê±´ì„ ë¨¼ì € ê²€ì‚¬í•˜ê³  ì¡°ê±´ì´ ì°¸ì¼ ê²½ìš° ë°˜ë³µ ë¶€ë¶„ì„ ìˆ˜í–‰í•˜ëŠ” ë°˜ë³µë¬¸");
 			break;
 		case 2:
-			System.out.println("2. Do - While ¹İº¹¹®");
-			System.out.println("¹İº¹ ºÎºĞÀ» ¸ÕÀú ¼öÇàÇÏ°í Á¶°ÇÀ» °Ë»çÇÏ°í ÃÖ¼Ò ÇÑ¹øÀº ¼öÇàµÇ´Â ¹İº¹¹®");
+			System.out.println("2. Do - While ë°˜ë³µë¬¸");
+			System.out.println("ë°˜ë³µ ë¶€ë¶„ì„ ë¨¼ì € ìˆ˜í–‰í•˜ê³  ì¡°ê±´ì„ ê²€ì‚¬í•˜ê³  ìµœì†Œ í•œë²ˆì€ ìˆ˜í–‰ë˜ëŠ” ë°˜ë³µë¬¸");
 			break;
 		case 3:
-			System.out.println("3. For ¹İº¹¹®");
-			System.out.println("ÁöÁ¤µÈ È½¼ö¸¸Å­ ¹İº¹ ºÎºĞÀ» ¼öÇàÇÏ´Â ¹İº¹¹®");
+			System.out.println("3. For ë°˜ë³µë¬¸");
+			System.out.println("ì§€ì •ëœ íšŸìˆ˜ë§Œí¼ ë°˜ë³µ ë¶€ë¶„ì„ ìˆ˜í–‰í•˜ëŠ” ë°˜ë³µë¬¸");
 			break;
 		default:
 			break;

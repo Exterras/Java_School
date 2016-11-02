@@ -7,27 +7,27 @@ public class SwitchTestIf {
 	
 		int month = 0;
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("ÇØ´çÇÏ´Â ¿ùÀÇ °èÀýÀ» ¾Ë·Áµå¸³´Ï´Ù.(¼ýÀÚ¸¸)");
+		System.out.println("í•´ë‹¹í•˜ëŠ” ì›”ì˜ ê³„ì ˆì„ ì•Œë ¤ë“œë¦½ë‹ˆë‹¤.(ìˆ«ìžë§Œ)");
 		
-		System.out.print("ÀÔ·Â : ");
+		System.out.print("ìž…ë ¥ : ");
 		
 		try {
 			month = scanner.nextInt();
 		} catch (Exception e) {
-			System.out.println("ÀÔ·ÂÀ» Àß¸øÇÏ¼Ì½À´Ï´Ù. 1~12 »çÀÌÀÇ ¼ýÀÚ¸¸ ÀÔ·ÂÇÏ¼¼¿ä.");
+			System.out.println("ìž…ë ¥ì„ ìž˜ëª»í•˜ì…¨ìŠµë‹ˆë‹¤. 1~12 ì‚¬ì´ì˜ ìˆ«ìžë§Œ ìž…ë ¥í•˜ì„¸ìš”.");
 			return;
 		}
 		
 		if(month >= 3 && month <= 5){
-			System.out.println(month +" ¿ùÀº º½ÀÔ´Ï´Ù.");
+			System.out.println(month +" ì›”ì€ ë´„ìž…ë‹ˆë‹¤.");
 		} else if (month >= 6 && month <= 8){
-			System.out.println(month +" ¿ùÀº ¿©¸§ÀÔ´Ï´Ù.");
+			System.out.println(month +" ì›”ì€ ì—¬ë¦„ìž…ë‹ˆë‹¤.");
 		} else if (month >= 9 && month <= 11){
-			System.out.println(month +" ¿ùÀº °¡À»ÀÔ´Ï´Ù.");
+			System.out.println(month +" ì›”ì€ ê°€ì„ìž…ë‹ˆë‹¤.");
 		} else if (month == 12 || (month >= 1 && month <= 2) ){
-			System.out.println(month +" ¿ùÀº °Ü¿ïÀÔ´Ï´Ù.");
+			System.out.println(month +" ì›”ì€ ê²¨ìš¸ìž…ë‹ˆë‹¤.");
 		} else {
-			System.out.println("ÀÔ·ÂÇÏ½Å ¿ùÀº ¾ø´Â ¿ùÀÔ´Ï´Ù.");
+			System.out.println("ìž…ë ¥í•˜ì‹  ì›”ì€ ì—†ëŠ” ì›”ìž…ë‹ˆë‹¤.");
 		}
 		
 	}

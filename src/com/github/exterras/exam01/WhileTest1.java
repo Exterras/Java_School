@@ -10,12 +10,12 @@ public class WhileTest1 {
 			count++;
 		}
 		
-		// for¹® »ç¿ë
+		// forë¬¸ ì‚¬ìš©
 		/* for(int count = 1; count <= 10; count++){
 		 * 	hap += count;
 		 * }
 		*/
 		
-		System.out.println("1ºÎÅÍ 10±îÁöÀÇ ÇÕÀº"+hap+"ÀÔ´Ï´Ù.");
+		System.out.println("1ë¶€í„° 10ê¹Œì§€ì˜ í•©ì€"+hap+"ìž…ë‹ˆë‹¤.");
 	}
 }
