@@ -18,7 +18,7 @@ public class DoWhileTest2 {
 			try {
 				choice = scanner.nextInt();
 			} catch (Exception e) {
-				System.out.println("입력을 잘못하셨습니다. 1~12 사이의 숫자만 입력하세요.");
+				System.out.println("입력을 잘못하셨습니다. 1~3 사이의 숫자만 입력하세요.");
 				break;
 			}
 			
