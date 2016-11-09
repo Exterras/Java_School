@@ -1,10 +1,10 @@
 package com.github.exterras.exam01;
 
 public class Star {
-	public static void main(String[] args) {
 	
-		int lineNum = 5;
-		int maxStar = 5;
+	public void makeStar(int _lineNum, int _maxStar){
+		int lineNum = _lineNum;
+		int maxStar = _maxStar;
 		
 		for (int i = 0; i < lineNum; i++) {
 			for (int j = i; j >= 0; j--) {
@@ -49,5 +49,11 @@ public class Star {
 		}
 		
 		System.out.println();
+	}
+	
+	public static void main(String[] args) {
+		Star star = new Star();
+		star.makeStar(5, 5);
+		// makeStar(line number, max star number)
 	}
 }

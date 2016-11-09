@@ -13,12 +13,12 @@ public class DoWhileAdv {
 		System.out.println("2. Do - While 반복문");
 		System.out.println("3. For 반복문");
 		System.out.println("4. 종료");
-		System.out.println("알고자 하는 메뉴를 선택하시오 (1~3)");
+		System.out.println("알고자 하는 메뉴를 선택하시오 (1~4)");
 		
 		try {
 			choice = scanner.nextLine();
 		} catch (Exception e) {
-			System.out.println("입력을 잘못하셨습니다. 1~3 사이의 숫자만 입력하세요.");
+			System.out.println("입력을 잘못하셨습니다. 1~4 사이의 숫자만 입력하세요.");
 		}
 	}
 	
@@ -41,7 +41,7 @@ public class DoWhileAdv {
 				break;
 			case "4":
 				System.out.println("프로그램을 종료합니다.");
-				flag = false;
+				flag = true;
 				break;
 			default:
 				System.out.println("메뉴 선택을 잘못 하셨습니다.");
@@ -53,9 +53,7 @@ public class DoWhileAdv {
 	public static void main(String[] args) {
 		
 		DoWhileAdv adv = new DoWhileAdv();
-		flag = true;
-		
-		while (flag) {
+		while (!flag) {
 			adv.noticeFunc();
 			adv.controllerFunc();
 		}
